@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MDTextView.h"
 
 @interface MDViewController : UIViewController
+
+@property (nonatomic,retain) IBOutlet MDTextView *textView;
 
 @end

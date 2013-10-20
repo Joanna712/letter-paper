@@ -14,9 +14,13 @@
 
 @implementation MDViewController
 
+@synthesize textView = _textView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.textView.delegate = self.textView;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

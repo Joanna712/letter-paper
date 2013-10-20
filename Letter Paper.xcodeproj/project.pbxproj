@@ -18,6 +18,8 @@
 		CECFA68F1813627B001E0CA1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CECFA68E1813627B001E0CA1 /* Default-568h@2x.png */; };
 		CECFA6921813627B001E0CA1 /* MDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFA6911813627B001E0CA1 /* MDViewController.m */; };
 		CECFA6951813627B001E0CA1 /* MDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECFA6931813627B001E0CA1 /* MDViewController.xib */; };
+		CECFA69D18136356001E0CA1 /* MDPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFA69C18136356001E0CA1 /* MDPaper.m */; };
+		CECFA6A018141594001E0CA1 /* MDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFA69F18141594001E0CA1 /* MDTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		CECFA6901813627B001E0CA1 /* MDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewController.h; sourceTree = "<group>"; };
 		CECFA6911813627B001E0CA1 /* MDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewController.m; sourceTree = "<group>"; };
 		CECFA6941813627B001E0CA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDViewController.xib; sourceTree = "<group>"; };
+		CECFA69B18136356001E0CA1 /* MDPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPaper.h; sourceTree = "<group>"; };
+		CECFA69C18136356001E0CA1 /* MDPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPaper.m; sourceTree = "<group>"; };
+		CECFA69E18141594001E0CA1 /* MDTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTextView.h; sourceTree = "<group>"; };
+		CECFA69F18141594001E0CA1 /* MDTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 				CECFA6881813627B001E0CA1 /* MDAppDelegate.m */,
 				CECFA6901813627B001E0CA1 /* MDViewController.h */,
 				CECFA6911813627B001E0CA1 /* MDViewController.m */,
+				CECFA69B18136356001E0CA1 /* MDPaper.h */,
+				CECFA69C18136356001E0CA1 /* MDPaper.m */,
+				CECFA69E18141594001E0CA1 /* MDTextView.h */,
+				CECFA69F18141594001E0CA1 /* MDTextView.m */,
 				CECFA6931813627B001E0CA1 /* MDViewController.xib */,
 				CECFA67F1813627B001E0CA1 /* Supporting Files */,
 			);
@@ -177,6 +187,8 @@
 				CECFA6851813627B001E0CA1 /* main.m in Sources */,
 				CECFA6891813627B001E0CA1 /* MDAppDelegate.m in Sources */,
 				CECFA6921813627B001E0CA1 /* MDViewController.m in Sources */,
+				CECFA69D18136356001E0CA1 /* MDPaper.m in Sources */,
+				CECFA6A018141594001E0CA1 /* MDTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,7 @@
 				CECFA69A1813627B001E0CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
