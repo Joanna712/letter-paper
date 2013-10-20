@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECFA6791813627B001E0CA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECFA6781813627B001E0CA1 /* UIKit.framework */; };
+		CECFA67B1813627B001E0CA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECFA67A1813627B001E0CA1 /* Foundation.framework */; };
+		CECFA67D1813627B001E0CA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECFA67C1813627B001E0CA1 /* CoreGraphics.framework */; };
+		CECFA6831813627B001E0CA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECFA6811813627B001E0CA1 /* InfoPlist.strings */; };
+		CECFA6851813627B001E0CA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFA6841813627B001E0CA1 /* main.m */; };
+		CECFA6891813627B001E0CA1 /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFA6881813627B001E0CA1 /* MDAppDelegate.m */; };
+		CECFA68B1813627B001E0CA1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CECFA68A1813627B001E0CA1 /* Default.png */; };
+		CECFA68D1813627B001E0CA1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CECFA68C1813627B001E0CA1 /* Default@2x.png */; };
+		CECFA68F1813627B001E0CA1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CECFA68E1813627B001E0CA1 /* Default-568h@2x.png */; };
+		CECFA6921813627B001E0CA1 /* MDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFA6911813627B001E0CA1 /* MDViewController.m */; };
+		CECFA6951813627B001E0CA1 /* MDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECFA6931813627B001E0CA1 /* MDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CECFA6751813627B001E0CA1 /* Letter Paper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Letter Paper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECFA6781813627B001E0CA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CECFA67A1813627B001E0CA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CECFA67C1813627B001E0CA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CECFA6801813627B001E0CA1 /* Letter Paper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Letter Paper-Info.plist"; sourceTree = "<group>"; };
+		CECFA6821813627B001E0CA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CECFA6841813627B001E0CA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CECFA6861813627B001E0CA1 /* Letter Paper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Letter Paper-Prefix.pch"; sourceTree = "<group>"; };
+		CECFA6871813627B001E0CA1 /* MDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		CECFA6881813627B001E0CA1 /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
+		CECFA68A1813627B001E0CA1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CECFA68C1813627B001E0CA1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CECFA68E1813627B001E0CA1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CECFA6901813627B001E0CA1 /* MDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewController.h; sourceTree = "<group>"; };
+		CECFA6911813627B001E0CA1 /* MDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewController.m; sourceTree = "<group>"; };
+		CECFA6941813627B001E0CA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECFA6721813627B001E0CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECFA6791813627B001E0CA1 /* UIKit.framework in Frameworks */,
+				CECFA67B1813627B001E0CA1 /* Foundation.framework in Frameworks */,
+				CECFA67D1813627B001E0CA1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECFA66C1813627B001E0CA1 = {
+			isa = PBXGroup;
+			children = (
+				CECFA67E1813627B001E0CA1 /* Letter Paper */,
+				CECFA6771813627B001E0CA1 /* Frameworks */,
+				CECFA6761813627B001E0CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECFA6761813627B001E0CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECFA6751813627B001E0CA1 /* Letter Paper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECFA6771813627B001E0CA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CECFA6781813627B001E0CA1 /* UIKit.framework */,
+				CECFA67A1813627B001E0CA1 /* Foundation.framework */,
+				CECFA67C1813627B001E0CA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CECFA67E1813627B001E0CA1 /* Letter Paper */ = {
+			isa = PBXGroup;
+			children = (
+				CECFA6871813627B001E0CA1 /* MDAppDelegate.h */,
+				CECFA6881813627B001E0CA1 /* MDAppDelegate.m */,
+				CECFA6901813627B001E0CA1 /* MDViewController.h */,
+				CECFA6911813627B001E0CA1 /* MDViewController.m */,
+				CECFA6931813627B001E0CA1 /* MDViewController.xib */,
+				CECFA67F1813627B001E0CA1 /* Supporting Files */,
+			);
+			path = "Letter Paper";
+			sourceTree = "<group>";
+		};
+		CECFA67F1813627B001E0CA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECFA6801813627B001E0CA1 /* Letter Paper-Info.plist */,
+				CECFA6811813627B001E0CA1 /* InfoPlist.strings */,
+				CECFA6841813627B001E0CA1 /* main.m */,
+				CECFA6861813627B001E0CA1 /* Letter Paper-Prefix.pch */,
+				CECFA68A1813627B001E0CA1 /* Default.png */,
+				CECFA68C1813627B001E0CA1 /* Default@2x.png */,
+				CECFA68E1813627B001E0CA1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECFA6741813627B001E0CA1 /* Letter Paper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECFA6981813627B001E0CA1 /* Build configuration list for PBXNativeTarget "Letter Paper" */;
+			buildPhases = (
+				CECFA6711813627B001E0CA1 /* Sources */,
+				CECFA6721813627B001E0CA1 /* Frameworks */,
+				CECFA6731813627B001E0CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Letter Paper";
+			productName = "Letter Paper";
+			productReference = CECFA6751813627B001E0CA1 /* Letter Paper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECFA66D1813627B001E0CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Joanna & Blues";
+			};
+			buildConfigurationList = CECFA6701813627B001E0CA1 /* Build configuration list for PBXProject "Letter Paper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CECFA66C1813627B001E0CA1;
+			productRefGroup = CECFA6761813627B001E0CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECFA6741813627B001E0CA1 /* Letter Paper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECFA6731813627B001E0CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECFA6831813627B001E0CA1 /* InfoPlist.strings in Resources */,
+				CECFA68B1813627B001E0CA1 /* Default.png in Resources */,
+				CECFA68D1813627B001E0CA1 /* Default@2x.png in Resources */,
+				CECFA68F1813627B001E0CA1 /* Default-568h@2x.png in Resources */,
+				CECFA6951813627B001E0CA1 /* MDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECFA6711813627B001E0CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECFA6851813627B001E0CA1 /* main.m in Sources */,
+				CECFA6891813627B001E0CA1 /* MDAppDelegate.m in Sources */,
+				CECFA6921813627B001E0CA1 /* MDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CECFA6811813627B001E0CA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECFA6821813627B001E0CA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CECFA6931813627B001E0CA1 /* MDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECFA6941813627B001E0CA1 /* en */,
+			);
+			name = MDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECFA6961813627B001E0CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CECFA6971813627B001E0CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECFA6991813627B001E0CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Letter Paper/Letter Paper-Prefix.pch";
+				INFOPLIST_FILE = "Letter Paper/Letter Paper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CECFA69A1813627B001E0CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Letter Paper/Letter Paper-Prefix.pch";
+				INFOPLIST_FILE = "Letter Paper/Letter Paper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECFA6701813627B001E0CA1 /* Build configuration list for PBXProject "Letter Paper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECFA6961813627B001E0CA1 /* Debug */,
+				CECFA6971813627B001E0CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECFA6981813627B001E0CA1 /* Build configuration list for PBXNativeTarget "Letter Paper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECFA6991813627B001E0CA1 /* Debug */,
+				CECFA69A1813627B001E0CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECFA66D1813627B001E0CA1 /* Project object */;
+}
